@@ -1,0 +1,59 @@
+[
+  {
+    "id": "TC-001",
+    "title": "Successful User Authentication",
+    "type": "Positive",
+    "description": "Verify that a user can successfully authenticate with valid credentials",
+    "status": "Ready"
+  },
+  {
+    "id": "TC-002",
+    "title": "Password Validation - Minimum Length",
+    "type": "Negative",
+    "description": "Verify that passwords shorter than 8 characters are rejected",
+    "status": "Ready"
+  },
+  {
+    "id": "TC-003",
+    "title": "Password Validation - Character Requirements",
+    "type": "Negative",
+    "description": "Verify that passwords without uppercase, lowercase, or number are rejected",
+    "status": "Ready"
+  },
+  {
+    "id": "TC-004",
+    "title": "Account Lockout After Failed Attempts",
+    "type": "Exception",
+    "description": "Verify that account is locked after three consecutive failed login attempts",
+    "status": "Ready"
+  },
+  {
+    "id": "TC-005",
+    "title": "Password Reset Link Expiration",
+    "type": "Boundary",
+    "description": "Verify that password reset links expire after 24 hours",
+    "status": "Ready"
+  },
+  {
+    "id": "TC-006",
+    "title": "Session Timeout After Inactivity",
+    "type": "Boundary",
+    "description": "Verify that user session times out after 30 minutes of inactivity",
+    "status": "Ready"
+  },
+  {
+    "id": "TC-007",
+    "title": "Data Export to CSV Format",
+    "type": "Positive",
+    "description": "Verify that user data can be exported in CSV format",
+    "status": "Ready"
+  },
+  {
+    "id": "TC-008",
+    "title": "Data Export Performance",
+    "type": "Boundary",
+    "description": "Verify that data export completes within 5 minutes for 10,000 records",
+    "status": "Ready"
+  }
+]
+

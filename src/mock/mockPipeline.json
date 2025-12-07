@@ -1,0 +1,25 @@
+{
+  "stages": [
+    {
+      "id": "reading",
+      "name": "Reading Document",
+      "status": "completed",
+      "progress": 100
+    },
+    {
+      "id": "understanding",
+      "name": "Understanding Requirements",
+      "status": "in-progress",
+      "progress": 75
+    },
+    {
+      "id": "generating",
+      "name": "Generating Test Cases",
+      "status": "pending",
+      "progress": 0
+    }
+  ],
+  "overallProgress": 58,
+  "estimatedTimeRemaining": "2 minutes"
+}
+

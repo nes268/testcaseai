@@ -1,0 +1,32 @@
+{
+  "id": "TC-001",
+  "title": "Successful User Authentication",
+  "type": "Positive",
+  "description": "Verify that a user can successfully authenticate with valid credentials",
+  "preconditions": [
+    "User account exists in the system",
+    "User has valid username and password",
+    "User is not currently locked out"
+  ],
+  "steps": [
+    "Navigate to the login page",
+    "Enter valid username in the username field",
+    "Enter valid password in the password field",
+    "Click the 'Login' button",
+    "Wait for authentication to complete (within 30 seconds)"
+  ],
+  "expectedResults": [
+    "User is successfully authenticated",
+    "User is redirected to the dashboard",
+    "User session is created",
+    "Authentication completes within 30 seconds"
+  ],
+  "traceability": {
+    "requirementId": "REQ-001",
+    "sourceChunk": 1,
+    "originalText": "The system shall allow users to authenticate using username and password. Authentication must be completed within 30 seconds of submission.",
+    "page": 5,
+    "section": "3.1 Authentication Requirements"
+  }
+}
+
